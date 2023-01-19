@@ -1,9 +1,13 @@
-import MyComponent from "./MyComponent";
+// import MyComponent from "./MyComponent";
+// import Counter from "./Counter";
+import Say from "./Say";
 
 const App = () => {
   return (
     <div>
-      <MyComponent>리액트</MyComponent>
+      {/* <MyComponent name="React" favoriteNumber={1}> 리액트</MyComponent> */}
+      {/* <Counter /> */}
+      <Say />
     </div>
   );
 };
